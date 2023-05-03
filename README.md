@@ -117,8 +117,8 @@ README.md, app.js: 추적 안됨
 3. 커밋을 원격 저장소에 올리기: 푸시
 4. app.js 수정, app.css 추가
 > app.js: 수정함, app.css: 추적 안됨
-4. app.js 수정, app.css 올리기(commit)
-> README.md: 수정없음, app.js, app.css: 스테이징
+4. app.js 수정, app.css 올리기(add)
+> README.md: 수정없음, app.js, app.css: 스테이지
 5. 스테이지 사진 찍어 남기기: 커밋
 > .: 수정없음
 6. 커밋을 원격 저장소에 올리기
@@ -142,7 +142,7 @@ oct: 고양1-고양2-고양3-문어A
 > git push origin main  
 master 브랜치에 커밋을 푸시해라, HEAD: 내가 지금 작업하는 로컬 브랜치를 가리킴
 - 브랜치 만들기
-> `git branch cat  `
+> `git branch cat`  
 cat 브랜치를 현재 시점에 만들어라
 - 만든 브랜치로 이동하기
 > `git checkout cat`, HEAD가 옮겨짐
